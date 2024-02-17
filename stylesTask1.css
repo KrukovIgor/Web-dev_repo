@@ -1,0 +1,7 @@
+body{
+    font-family: Helvetica;
+    background-image: url(DragonTilingBG2.png), url(DragonTilingBG2M.png);
+    background-position: top left, top right;
+    background-repeat: repeat-y, repeat-y;
+    background-size: 190px ;
+}
