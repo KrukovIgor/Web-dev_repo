@@ -5,3 +5,25 @@ body{
     background-repeat: repeat-y, repeat-y;
     background-size: 190px ;
 }
+nav ul{
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+}
+nav a{
+    display: inline-block;
+    width: 5em;
+    padding: 10px;
+    border: 1px dashed #a90102;
+    text-decoration: none;
+    color: #262626;
+}
+nav a:hover{
+    background-color: #a90102;
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
