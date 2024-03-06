@@ -1,5 +1,5 @@
 body{
-    font-family: Helvetica;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url(MediaTask1/DragonTilingBG2.png), url(MediaTask1/DragonTilingBG2M.png);
     background-position: top left, top right;
     background-repeat: repeat-y, repeat-y;
@@ -29,10 +29,15 @@ nav a:hover{
 }
 #sidebarRight{
     float: right;
-    width: 20%;
+    background-color: white;
+    width: 18.5%;
+}
+.sideBlock{
+    display: block; 
+    width: 85%;
 }
 main{
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
